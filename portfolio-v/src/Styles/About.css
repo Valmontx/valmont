@@ -1,0 +1,271 @@
+.TittleStyleA {
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 412px;
+    top: 216px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+
+.TittleStyleB {
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 460px;
+    top: 226px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+
+.TittleStyleO {
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 510px;
+    top: 216px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+
+.TittleStyleU {
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 555px;
+    top: 229px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+.TittleStyleT {
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 595px;
+    top: 216px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+.TittleStyleM {
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 668px;
+    top: 223px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+.TittleStyleE{
+    position: absolute;
+    width: 56px;
+    height: 80px;
+    left: 717px;
+    top: 229px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #ffff;
+    -webkit-text-stroke: 3px #93D8D8;
+}
+
+.positionAbout{
+    position: absolute;
+    top:-150px;
+    left: 85px;
+}
+
+/* Styles of modal */
+
+.modalAbout{
+  position: absolute;
+  width: 580px;
+  height: 400px;
+  left: 180px;
+  top:215px;
+  background-color: #ffff;
+  /* border: 4px solid rgba(87,91,9,0.3) ; */
+  /* filter: blur(1px); */
+  border-radius: 129px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    
+}
+.textAbout{
+    position: absolute;
+    width: 528px;
+    height: 433px;
+    top: 15px;
+    font-family: 'Fredoka',cursive;
+    font-style: normal;
+    font-weight: 400;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: 30px;
+    text-align:center;
+    color: #6C6464;
+    line-height: 35px;
+
+}
+.seeMore{  /*buttonAbout*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    position: absolute;
+    width: 106px;
+    height: 40px;
+    left: 250px;
+    top: 270px;
+    background-color: #696767aa;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 50px;
+    border: none;
+    color:#ffff;
+    cursor: pointer;
+    font-style: 'Inter',cursive; /*Falta agregar estilo de fuente aqui*/
+    
+}
+
+.kitten{
+    position: absolute;
+    width: 130px;
+    height: 150px;
+    left: 800px;
+    top: 40px;
+
+}
+.DownloadTxt{
+position: absolute;
+width: 201px;
+height: 43px;
+left: 769px;
+top: 185px;
+font-family: 'Margarine',cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color:#ffff
+}
+
+.buttonDownload{
+box-sizing: border-box;
+position: absolute;
+width: 150px;
+height: 35px;
+left: 792px;
+top: 260px;
+background: #93D8D8;
+border:none;
+/* border: 1px solid #BFFFAB; */
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+cursor: pointer;
+
+
+}
+.pdf{
+    position: absolute;
+    top: 5px;
+    left:58px;
+    font-family: 'Fredoka', cursive;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.flecha{
+    position: absolute;
+    left: 100px;
+    top: 6px;
+    width: 25px;
+}
+
+.miau{
+    position: absolute;
+    width: 250px;
+    top: 255px;
+    left: -200px;
+    
+}
+
+/*Modal del about*/
+
+.modal{
+   position: fixed;
+   top: 0;
+   left:0; 
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   display:flex;
+   justify-content: center;
+}
+.modal-container {
+    position: absolute;
+    width: 370px;
+    height: 390px;
+    border: 1px solid #FFFFFF; 
+    top: 168px;
+    border-radius: 129px;
+    background-color: #ffff;
+}
+.txt-fact{
+    position: absolute;
+    top: -20px;
+    left: 150px;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #FF5A79;
+
+}
+
+.button-close{
+    position: absolute;
+    right:45px;
+    top: 35px;
+    color: #FF5A79;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;   
+}
+.txt-description{
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    padding: 25px;
+    
+}
+
